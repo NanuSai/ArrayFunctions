@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Array of Double Values"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtArrayofDoubleValue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="24sp" />
+        </HorizontalScrollView>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Array of Integer Numbers"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtArrayofIntegerValue"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="24dp" />
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="intArray1"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtintArray1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="24dp" />
+        </HorizontalScrollView>
+
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="intArray1 Copy"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtintArray1Copy"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp" />
+
+        <Switch
+            android:id="@+id/swtEqual"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Switch"
+            android:textSize="24dp" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Location of our array element"
+            android:textSize="24dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtLocationArrElem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24dp" />
+
+
+    </LinearLayout>
+</RelativeLayout>
